@@ -33,8 +33,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "IP->Iran, Yotube:Pedram",
-        "IP->Main, Yotube:Pedram"
+        "IP->Iran, Yotube:MisaHiro",
+        "IP->Main, Yotube:MisaHiro"
       ],
       "default": "auto"
     },
@@ -50,7 +50,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "IP->Iran, Yotube:Pedram",
+      "tag": "IP->Iran, Yotube:MisaHiro",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:8908:a906:e658:10b0:8629/128"
@@ -65,8 +65,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "IP->Main, Yotube:Pedram",
-      "detour": "IP->Iran, Yotube:Pedram",
+      "tag": "IP->Main, Yotube:MisaHiro",
+      "detour": "IP->Iran, Yotube:MisaHiro",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:859a:e222:67f4:b14f:d9b0/128"
